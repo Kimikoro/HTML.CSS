@@ -1,0 +1,15 @@
+/* ブラウザがそれぞれ持っているCSSをリセットするため */
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+.test {
+width: 300px;
+height: 300px;
+border: 2px solid #fa5893;
+}
+
+.titen {
+color:#fa5893
+}
