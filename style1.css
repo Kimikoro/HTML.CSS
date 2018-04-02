@@ -19,7 +19,7 @@ a {
 /**/
 header {
 	width: 90%;
-	padding: 15px 0;
+	padding: 15px 0 15px 0;
 	margin: 0 auto;
 	text-align: center;
 }
@@ -111,6 +111,25 @@ main {
 	color: #fff;
 	font-size: 11px;
 }
+
+#pagination {
+	text-align: center;
+	padding-top: 50px;
+}
+
+.pagination-box {
+	width: 30px;
+	height: 30px;
+	display: inline-block;
+	color: white;
+	background-color: #acabab;
+	border-radius: 3px;
+	margin: 0 5px;
+	line-height: 30px; /*箱が30x30pxなので、行の高さを30pxで揃えることによってど真ん中に表示される*/
+
+}
+
+
 .sidebar{
 	width: 230px;
 	float: left; /*要素を横並びに*/
