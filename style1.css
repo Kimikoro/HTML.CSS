@@ -203,3 +203,27 @@ footer {
 .footer-text {
 	color: #fff;
 }
+
+@media screen and (max-width: 425px) {
+	.social {
+		position: static;
+	}
+	.main-visual-content, main, .blog, .blog-headline, .sidebar{
+		width: 100%
+	}
+	.blog, .blog-image, .blog-text, .sidebar{
+		float: none;
+		text-align: center;
+	}
+	#pagination {
+		padding-bottom: 50px;
+	}
+	.instagram-box:nth-child(n) {
+	margin: 5px 5px;
+	}
+	.sidebar-contents {
+		padding:50px 5px;
+		margin: 0 auto;
+
+	}
+}
