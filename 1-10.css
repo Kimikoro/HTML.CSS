@@ -10,12 +10,11 @@
 	display: block;
 	clear: both;
 }
-
+/*ヘッダー*/
 header {
 	width: 100%;
 	height: 70px;
 	background-color: #EC715F;
-	/*position: relative;*/
 }
 
 .head-logo {
@@ -38,8 +37,18 @@ nav {
 	text-align: center;
 	line-height: 70px;
 }
+
+/*メインビジュアル*/
+.main-visual{
+	width: 100%;
+	height: 650px;
+	background-image: url(img1-10/mv.png);
+	background-size: cover;
+	background-position: center;
+}
 .main-visual-textbox {
-	width: 100%
+	padding-top: 200px;
+	width: 100%;
 }
 .main-visual-text {
 	font-size: 64px;
@@ -52,4 +61,57 @@ nav {
 	color: #FAFAFA;
 	font-size: 20px;
 	text-align: center;
+}
+/*ポートフォリオ*/
+.portfolio {
+	width: 100%;
+	background-color: #ECEFF1;
+}
+.portfolio-textbox, .portfolio-imagebox {
+	width: 920px;
+	margin: 0 auto;
+}
+.portfolio-title {
+	font-size: 32px;
+	color: #000000;
+	padding: 90px 0 8px 0;
+	text-align: center;
+}
+.portfolio-text {
+	font-size: 16px;
+	color: #000000;
+	padding: 30px 0;
+	text-align: center;
+}
+.portfolio-image {
+	float: left;
+	width: 300px;
+	height: 250px;
+	background-size: cover;
+	background-position: center;
+	margin: 0 10px 10px 0;
+}
+.portfolio-image:nth-child(3n) {
+	margin: 0;
+}
+.portfolio-image:nth-child(n+4) {
+	margin-bottom: 90px;
+}
+.portfolio-image:nth-child(1) {
+	background-image: url(img1-10/sketch.jpg);
+}
+.portfolio-image:nth-child(2) {
+	background-image: url(img1-10/websuku.png);
+}
+.portfolio-image:nth-child(3) {
+	background-image: url(img1-10/write.jpg);
+}
+.portfolio-image:nth-child(4) {
+	background-image: url(img1-10/webcamp.png);
+}
+.portfolio-image:nth-child(5) {
+	background-image: url(img1-10/talk.jpg);
+}
+.portfolio-image:nth-child(6) {
+	background-image: url(img1-10/webcamp-mother.png);
 }
