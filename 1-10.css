@@ -65,27 +65,27 @@ nav {
 }
 
 /*Portfolio*/
-.portfolio {
+.portfolio, .profile {
 	width: 100%;
 	background-color: #ECEFF1;
 }
-.portfolio-textbox, .portfolio-imagebox {
+.portfolio-mainbox, .portfolio-imagebox {
 	width: 920px;
 	margin: 0 auto;
 }
-.portfolio-title {
+.portfolio-title, .feature-title, .profile-title {
 	font-size: 32px;
 	line-height: 32px;
 	color: #000000;
 	padding: 90px 0 8px 0;
 	text-align: center;
 }
-.portfolio-borderline {
+.portfolio-borderline, .feature-borderline, .profile-borderline{
 	border-bottom: 3px solid #EC715F;
 	width: 70px;
 	margin: 0 auto;
 }
-.portfolio-text {
+.portfolio-title-text, .feature-title-text, .profile-title-text {
 	font-size: 16px;
 	color: #000000;
 	padding: 30px 0;
@@ -128,27 +128,9 @@ nav {
 .feature {
 	width: 100%;
 }
-.feature-textbox {
+.feature-mainbox {
 	width: 980px;
 	margin: 0 auto;
-}
-.feature-title {
-	font-size: 32px;
-	line-height: 32px;
-	color: #000000;
-	padding: 90px 0 8px 0;
-	text-align: center;
-}
-.feature-borderline {
-	border-bottom: 3px solid #EC715F;
-	width: 70px;
-	margin: 0 auto;
-}
-.feature-title-text {
-	font-size: 16px;
-	color: #000000;
-	padding: 30px 0;
-	text-align: center;
 }
 .feature-main-box {
 	width: 980px;
@@ -157,9 +139,6 @@ nav {
 .feature-main-box i {
 	font-size: 60px;
 }
-
-
-
 .icon-apple {
 	text-align: center;
 }
@@ -209,6 +188,40 @@ nav {
 	line-height: 50px;
 }
 .strength3-text {
+	font-size: 16px;
+	color: #000000;
+}
+
+/*Profile*/
+.profile-mainbox {
+	width: 1024px;
+}
+.profile-imagebox {
+	float: left;
+	width: 512px;
+	padding-bottom: 90px;
+}
+.profile-image {
+	background-image: url(img1-10/my-icon.jpg);
+	width: 250px;
+	height: 250px;
+	border-radius: 125px;
+	margin: 0 auto;
+}
+.profile-textbox {
+	float: left;
+	width: 512px;
+}
+.myname, .myskills {
+	font-size: 20px;
+	padding-bottom: 5px;
+}
+.myname-text {
+	font-size: 16px;
+	color: #000000;
+	padding-bottom: 8px;
+}
+.myskills-text {
 	font-size: 16px;
 	color: #000000;
 }
