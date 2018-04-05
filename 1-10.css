@@ -73,19 +73,19 @@ nav {
 	width: 920px;
 	margin: 0 auto;
 }
-.portfolio-title, .feature-title, .profile-title {
+.portfolio-title, .feature-title, .profile-title, .contact-title {
 	font-size: 32px;
 	line-height: 32px;
 	color: #000000;
 	padding: 90px 0 8px 0;
 	text-align: center;
 }
-.portfolio-borderline, .feature-borderline, .profile-borderline{
+.portfolio-borderline, .feature-borderline, .profile-borderline, .contact-borderline {
 	border-bottom: 3px solid #EC715F;
 	width: 70px;
 	margin: 0 auto;
 }
-.portfolio-title-text, .feature-title-text, .profile-title-text {
+.portfolio-title-text, .feature-title-text, .profile-title-text, .contact-title-text {
 	font-size: 16px;
 	color: #000000;
 	padding: 30px 0;
@@ -125,7 +125,7 @@ nav {
 }
 
 /*Feature*/
-.feature {
+.feature .contact{
 	width: 100%;
 }
 .feature-mainbox {
@@ -195,11 +195,12 @@ nav {
 /*Profile*/
 .profile-mainbox {
 	width: 1024px;
+	margin: 0 auto;
 }
 .profile-imagebox {
-	float: left;
 	width: 512px;
 	padding-bottom: 90px;
+	float: left;
 }
 .profile-image {
 	background-image: url(img1-10/my-icon.jpg);
@@ -225,3 +226,35 @@ nav {
 	font-size: 16px;
 	color: #000000;
 }
+
+/*Contact*/
+.contact-mainbox {
+	width: 800px;
+	margin: 0 auto;
+}
+.mycontact, .mysns{
+	width: 400px;
+	padding-bottom: 90px;
+	float: left;
+}
+.mail, .tell, .sns{
+	font-size: 20px;
+	padding-bottom: 5px;	
+	margin: 0 auto;
+}
+.mailaddress .{
+	padding-bottom: 20px;
+}
+.mail, .mailaddress, .tell, .phonenumber, .sns, .icon-sns {
+	width: 200px;
+	margin: 0 auto;
+}
+.icon-sns {
+	font-size: 50px;
+}
+.icon-twitter {
+	display: inline-block;
+	padding: 0 20px;
+}
+
+
