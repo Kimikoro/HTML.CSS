@@ -4,13 +4,14 @@
 	box-sizing: border-box;
 }
 
-/*clearfixを追加*/
+/*Add Clearfix*/
 .clearfix::after {
 	content: "";
 	display: block;
 	clear: both;
 }
-/*ヘッダー*/
+
+/*Header*/
 header {
 	width: 100%;
 	height: 70px;
@@ -38,7 +39,7 @@ nav {
 	line-height: 70px;
 }
 
-/*メインビジュアル*/
+/*Main-Visual*/
 .main-visual{
 	width: 100%;
 	height: 650px;
@@ -62,7 +63,8 @@ nav {
 	font-size: 20px;
 	text-align: center;
 }
-/*ポートフォリオ*/
+
+/*Portfolio*/
 .portfolio {
 	width: 100%;
 	background-color: #ECEFF1;
@@ -73,9 +75,15 @@ nav {
 }
 .portfolio-title {
 	font-size: 32px;
+	line-height: 32px;
 	color: #000000;
 	padding: 90px 0 8px 0;
 	text-align: center;
+}
+.portfolio-borderline {
+	border-bottom: 3px solid #EC715F;
+	width: 70px;
+	margin: 0 auto;
 }
 .portfolio-text {
 	font-size: 16px;
@@ -114,4 +122,93 @@ nav {
 }
 .portfolio-image:nth-child(6) {
 	background-image: url(img1-10/webcamp-mother.png);
+}
+
+/*Feature*/
+.feature {
+	width: 100%;
+}
+.feature-textbox {
+	width: 980px;
+	margin: 0 auto;
+}
+.feature-title {
+	font-size: 32px;
+	line-height: 32px;
+	color: #000000;
+	padding: 90px 0 8px 0;
+	text-align: center;
+}
+.feature-borderline {
+	border-bottom: 3px solid #EC715F;
+	width: 70px;
+	margin: 0 auto;
+}
+.feature-title-text {
+	font-size: 16px;
+	color: #000000;
+	padding: 30px 0;
+	text-align: center;
+}
+.feature-main-box {
+	width: 980px;
+	margin: 0 auto;
+}
+.feature-main-box i {
+	font-size: 60px;
+}
+
+
+
+.icon-apple {
+	text-align: center;
+}
+.strength1 {
+	width: 320px;
+	float: left;
+}
+.strength1-title {
+	font-size: 20px;
+	color: #000000;
+	text-align: center;
+	line-height: 50px;
+}
+.strength1-text {
+	font-size: 16px;
+	color: #000000;
+}
+.icon-android {
+	text-align: center;
+}
+.strength2 {
+	width: 320px;
+	float: left;
+	margin: 0 10px 90px 10px;
+}
+.strength2-title {
+	font-size: 20px;
+	color: #000000;
+	text-align: center;
+	line-height: 50px;
+}
+.strength2-text {
+	font-size: 16px;
+	color: #000000;
+}
+.icon-google {
+	text-align: center;
+}
+.strength3 {
+	width: 320px;
+	float: left;
+}
+.strength3-title {
+	font-size: 20px;
+	color: #000000;
+	text-align: center;
+	line-height: 50px;
+}
+.strength3-text {
+	font-size: 16px;
+	color: #000000;
 }

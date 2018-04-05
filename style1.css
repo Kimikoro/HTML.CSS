@@ -39,7 +39,7 @@ header .headline{
 }
 
 .social i {
-	display: inline-block;
+	display: block;
 	margin-left: 20px;
 }
 .nav-list {
