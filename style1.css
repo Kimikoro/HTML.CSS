@@ -39,7 +39,7 @@ header .headline{
 }
 
 .social i {
-	display: inline-block;
+	display: block;
 	margin-left: 20px;
 }
 .nav-list {
@@ -254,7 +254,7 @@ footer {
   }
   .pagination { 
    margin-bottom: 50px;
-  }}*/ /*自分のレイアウトのほうが好き*/
+  }}*/ /*％設定のほうが汎用性がある？*/
 @media screen and (max-width: 425px) {
 	.social {
 		position: static;
@@ -269,12 +269,19 @@ footer {
 	#pagination {
 		padding-bottom: 50px;
 	}
-	.instagram-box:nth-child(n) {
-	margin: 5px 5px;
-	}
-	.sidebar-contents {
-		padding:50px 5px;
-		margin: 0 auto;
-
-	}
+  .sidebar {
+    width: 100%;
+    padding-left: 3%;
+    padding-right: 3%;
+  }
+  .instagram-box {
+    width: 48%;
+    padding-top: 48%;
+  }
+  .instagram-box:nth-child(odd) {
+    margin-right: 4%;
+  }
+  .pagination { 
+   margin-bottom: 50px;
+  }
 }
