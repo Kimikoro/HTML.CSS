@@ -3,7 +3,6 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width,initial-scale=1.0">
-
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet" href="1-10.css">
 <title>WEBsite</title>
@@ -13,14 +12,28 @@
 <body>
 <!-- Header -->
 <header>
-	<nav>
-		<img class="head-logo" src="img1-10/logo.png" alt="ウェブキャンプのロゴ">
+	<nav class="clearfix">
+		<img class="headlogo" src="img1-10/logo.png" alt="ウェブキャンプのロゴ">
 		<ul class="nav-box">
 			<li class="nav-item">Portfolio</li>
 			<li class="nav-item">Feature</li>
 			<li class="nav-item">Profile</li>
 			<li class="nav-item">Contact</li>
 		</ul>
+
+		<div id="nav-drawer">
+      		<input id="nav-input" type="checkbox" class="nav-unshown">
+      		<label id="nav-open" for="nav-input"><span></span></label>
+      		<label class="nav-unshown" id="nav-close" for="nav-input"></label>
+      		<div id="nav-content">
+      			<ul class="nav-drawer-box">
+			<li class="nav-drawer-item">Portfolio</li>
+			<li class="nav-drawer-item">Feature</li>
+			<li class="nav-drawer-item">Profile</li>
+			<li class="nav-drawer-item">Contact</li>
+				</ul>
+      		</div>
+  		</div>
 	</nav>
 </header>
 <!-- Main-Visual -->
@@ -58,42 +71,21 @@
 		content of a page when looking at its layout.<br>
 		The point of using Lorem lpsum is that it has a more-or-less normal distribution of letters.</p>
 	</div>
-	<div class="feature-main-box clearfix">
+	<div class="feature-strength-box clearfix">
 		<div class="strength1">
 			<div class="icon-apple"><i class="fa fa-apple"></i></div>
 			<div class="strength1-title">Strength1</div>
-			<p class="strength1-text">Contrary to popular belief, Lorem lpsum<br>
-			is not simply random text. It has roots<br>
-			in a pieceof classical Latin literature<br>
-			from 45 BC, makin it over 2000 years<br>
-			old. Richard McClintock, a Latin<br>
-			proffessor at Hampden-Sydney College<br>
-			in Virginia, looked up one of the more<br>
-			obscure Latin words, consectetur</p>
+			<p class="strength1-text">Contrary to popular belief, Lorem lpsum is not simply random text. It has roots in a pieceof classical Latin literature from 45 BC, makin it over 2000 years old. Richard McClintock, a Latin proffessor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur</p>
 		</div>
 		<div class="strength2">
 			<div class="icon-android"><i class="fa fa-android"></i></div>
 			<div class="strength2-title">Strength2</div>
-			<p class="strength2-text">Contrary to popular belief, Lorem lpsum<br>
-			is not simply random text. It has roots<br>
-			in a pieceof classical Latin literature<br>
-			from 45 BC, makin it over 2000 years<br>
-			old. Richard McClintock, a Latin<br>
-			proffessor at Hampden-Sydney College<br>
-			in Virginia, looked up one of the more<br>
-			obscure Latin words, consectetur</p>
+			<p class="strength2-text">Contrary to popular belief, Lorem lpsum is not simply random text. It has roots in a pieceof classical Latin literature from 45 BC, makin it over 2000 years old. Richard McClintock, a Latin proffessor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur</p>
 		</div>
 		<div class="strength3">
 			<div class="icon-google"><i class="fa fa-google"></i></div>
 			<div class="strength3-title">Strength3</div>
-			<p class="strength3-text">Contrary to popular belief, Lorem lpsum<br>
-			is not simply random text. It has roots<br>
-			in a pieceof classical Latin literature<br>
-			from 45 BC, makin it over 2000 years<br>
-			old. Richard McClintock, a Latin<br>
-			proffessor at Hampden-Sydney College<br>
-			in Virginia, looked up one of the more<br>
-			obscure Latin words, consectetur</p>
+			<p class="strength3-text">Contrary to popular belief, Lorem lpsum is not simply random text. It has roots in a pieceof classical Latin literature from 45 BC, makin it over 2000 years old. Richard McClintock, a Latin proffessor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur</p>
 		</div>
 	</div>
 </div>
@@ -111,11 +103,7 @@
 		</div>
 		<div class="profile-textbox">
 		<div class="myname">Myname</div>
-		<p class="myname-text">Contrary to popular belief, Lorem lpsum is not simply random<br>
-		text. It has roots in a piece of classical Latin literature from 45<br>
-		BC, makin it over 2000 years old. Richard McClintock, a Latin<br>
-		proffessor at Hampden-Sydney College in Virginia, looked up<br>
-		one of the more obscure Latin words, consectetur</p>
+		<p class="myname-text">Contrary to popular belief, Lorem lpsum is not simply random text. It has roots in a pieceof classical Latin literature from 45 BC, makin it over 2000 years old. Richard McClintock, a Latin proffessor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur</p>
 		<div class="myskills">MySkills</div>
 		<p class="myskills-text">HTML/CSS/JavaScript/JQuery/PhotoShop</p>
 		</div>
