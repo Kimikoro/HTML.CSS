@@ -375,13 +375,6 @@ footer {
 
 /*iPhone*/
 @media screen and (max-width: 768px) {
-	body {
-		width: 100%;
-}
-	header, .main-visual,#portfolio, #feature, #profile, #contact  {
-		width: 90%;
-		margin: 0 auto;
-	}
 /*ヘッダー*/
 	header {
 		height: 50px;
@@ -410,11 +403,11 @@ footer {
 	}
 	/*ポートフォリオ*/
 	#portfolio {
-		padding-bottom: 90px;
+		padding-bottom: 80px;
 	}
-	.portfolio-imagebox, .portfolio-mainbox, .feature-mainbox, .feature-strength-box, .profile-mainbox, .profile-imagebox, .profile-textbox, .contact-mainbox, .strength1, .strength2, .strength3 {
-		width: 100%;
-
+	.portfolio-imagebox, .portfolio-mainbox, .feature-mainbox, .feature-strength-box, .profile-mainbox, .profile-imagebox, .contact-mainbox {
+		width: 90%;
+		margin: 0 auto;
 	}
 	.portfolio-image:nth-child(odd) {
 		display: none;
@@ -422,19 +415,23 @@ footer {
 	.portfolio-image:nth-child(even) {
 	margin: 0 auto 10px auto;
 	float: none;
+	width: 100%;
 	}
 /*フィーチャー*/
 	.strength1 {
+		width: 100%;
 		margin-bottom: 10px;
 	}
 	.strength2 {
+		width: 100%;
 		margin: 0 0 10px 0;
 	}
 	.strength3 {
+		width: 100%;
 		margin-bottom: 90px;
 	}
 /*プロフィール*/
-	.profile-imagebox {
+	.profile-imagebox, .profile-textbox {
 		width: 100%;
 	}
 	.myname, .myname-text, .myskills, .myskills-text {
