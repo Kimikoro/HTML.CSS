@@ -28,6 +28,10 @@ nav {
 	height: 70px;
 	margin: 0 auto;
 }
+nav a{
+	text-decoration:none;
+	color: #555;
+}
 .nav-box {
 	float: right;
 }
@@ -36,9 +40,11 @@ nav {
 	list-style: none;
 	font-size: 16px;
 	color: #FAFAFA;
-	padding: 0 30px;
 	text-align: center;
 	line-height: 70px;
+}
+.nav-name {
+	padding: 0 30px;
 }
 .nav-drawer-box {
 	width: 100%;
@@ -48,10 +54,15 @@ nav {
 	line-height: 50px;
 	font-size: 20px;
 }
-.nav-drawer-item:before {
+.nav-drawer-name::before {
 	content: "• ";
     color: grey;
 }
+.nav-drawer-name{
+
+}
+
+
 #nav-drawer {
 	position: relative;
 	float: right;
@@ -64,7 +75,7 @@ nav {
 	width: 0px;
 	height: 0px;
 	vertical-align: middle;
-	padding: 10px 20px;
+	padding: 15px 18px;
 }
 #nav-open span, #nav-open span:before, #nav-open span:after {
 	position: absolute;
@@ -144,7 +155,7 @@ nav {
 }
 
 /*Portfolio*/
-.portfolio, .profile {
+#portfolio, #profile {
 	width: 100%;
 	background-color: #ECEFF1;
 }
@@ -204,7 +215,7 @@ nav {
 }
 
 /*Feature*/
-.feature .contact{
+#feature .contact{
 	width: 100%;
 }
 .feature-mainbox {
@@ -365,9 +376,12 @@ footer {
 /*iPhone*/
 @media screen and (max-width: 768px) {
 	body {
-	width: 90%;
-	margin: 0 auto;
+		width: 100%;
 }
+	header, .main-visual,#portfolio, #feature, #profile, #contact  {
+		width: 90%;
+		margin: 0 auto;
+	}
 /*ヘッダー*/
 	header {
 		height: 50px;
@@ -376,9 +390,8 @@ footer {
 		height: 50px;
 	}
 	nav{
-		width: 90%;
+		width: 80%;
 		height: 50px;
-		margin: 3px 8px;
 	}
 	.nav-box {
 		display: none;
@@ -394,6 +407,10 @@ footer {
 	}
 	.main-visual-text2 {
 		font-size: 18px;
+	}
+	/*ポートフォリオ*/
+	#portfolio {
+		padding-bottom: 90px;
 	}
 	.portfolio-imagebox, .portfolio-mainbox, .feature-mainbox, .feature-strength-box, .profile-mainbox, .profile-imagebox, .profile-textbox, .contact-mainbox, .strength1, .strength2, .strength3 {
 		width: 100%;
@@ -440,9 +457,3 @@ footer {
 	}
 
 }
-
-
-
-
-
-
