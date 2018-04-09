@@ -75,7 +75,7 @@ nav a{
 	width: 0px;
 	height: 0px;
 	vertical-align: middle;
-	padding: 15px 18px;
+	padding: 15px;
 }
 #nav-open span, #nav-open span:before, #nav-open span:after {
 	position: absolute;
