@@ -405,7 +405,7 @@ footer {
 	#portfolio {
 		padding-bottom: 80px;
 	}
-	.portfolio-imagebox, .portfolio-mainbox, .feature-mainbox, .feature-strength-box, .profile-mainbox, .profile-imagebox, .contact-mainbox {
+	.main-visual-textbox, .portfolio-imagebox, .portfolio-mainbox, .feature-mainbox, .feature-strength-box, .profile-mainbox, .profile-imagebox, .contact-mainbox {
 		width: 90%;
 		margin: 0 auto;
 	}
